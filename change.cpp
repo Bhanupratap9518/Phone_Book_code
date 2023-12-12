@@ -38,7 +38,7 @@ public:
             }
         } while (!validName);
 
-
+        // Validate and input mobile number
         bool validMobile = false;
         do {
             cout << "Enter Mobile Number : ";
@@ -49,7 +49,7 @@ public:
             }
         } while (!validMobile);
 
-    
+        // Validate and input email
         bool validEmail = false;
         do {
             cout << "Enter E-Mail I. D.  : ";
